@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41023225協同產品設計實習 - w1</title><link href="./" rel="alternate"></link><link href="./feeds/w1.atom.xml" rel="self"></link><id>./</id><updated>2024-03-01T22:00:00+08:00</updated><entry><title>2024 Spring 課程W1</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-01T22:00:00+08:00</published><updated>2024-03-01T06:07:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-01:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41023225協同產品設計實習 - w1</title><link href="./" rel="alternate"></link><link href="./feeds/w1.atom.xml" rel="self"></link><id>./</id><updated>2024-03-01T06:20:09+08:00</updated><entry><title>2024 Spring 課程W1</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T22:00:00+08:00</published><updated>2024-03-01T06:14:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 &lt;h1&gt;w1&lt;/h1&gt;
 &lt;p&gt;1.建立個人倉儲與網站
 2.Github實施雙重認證
-3.將倉儲import到Replit後回推到Github&lt;/p&gt;</content><category term="w1"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T22:00:00+08:00</published><updated>2024-02-29T15:46:42+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+3.將倉儲import到Replit後回推到Github&lt;/p&gt;</content><category term="w1"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T22:00:00+08:00</published><updated>2024-03-01T06:20:09+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 

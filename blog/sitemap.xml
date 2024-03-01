@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-01T06:09:07-00:00</lastmod>
+<lastmod>2024-03-01T06:20:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-01T06:09:07-00:00</lastmod>
+<lastmod>2024-03-01T06:20:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-01T06:09:07-00:00</lastmod>
+<lastmod>2024-03-01T06:20:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-01T06:09:07-00:00</lastmod>
+<lastmod>2024-03-01T06:20:17-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./pages/2024-Spring-w2-blog-tutorial/</loc>
+<lastmod>2024-03-01T06:18:58+08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -39,36 +46,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./2024-Spring-w2-blog-tutorial.html</loc>
-<lastmod>2024-03-01T06:07:37+08:00</lastmod>
+<loc>./2024-Spring-w1-blog-tutorial.html</loc>
+<lastmod>2024-03-01T06:14:09+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2024-Spring-w1-blog-tutorial.html</loc>
-<lastmod>2024-02-29T15:46:42+08:00</lastmod>
+<loc>./2024-Spring-blog-tutorial.html</loc>
+<lastmod>2024-03-01T06:20:09+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/w1.html</loc>
-<lastmod>2024-03-01T22:00:00+08:06</lastmod>
+<lastmod>2024-03-01T06:20:09+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/wang-zhi-bian-xie.html</loc>
-<lastmod>2024-03-01T22:00:00+08:06</lastmod>
+<lastmod>2024-03-01T06:20:09+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/kmol.html</loc>
-<lastmod>2024-03-01T22:00:00+08:06</lastmod>
+<lastmod>2024-03-01T06:20:09+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
