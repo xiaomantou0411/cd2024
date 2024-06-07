@@ -142,75 +142,14 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7<br /><h1>w6</h1>
-<p>更改個人與群組 .md 與 slug名稱 , 加上自己的學號或者加上群組分組名稱</p>
-<p>更新分組倉儲中的分組倉儲</p>
-<p>cd2024 2a w6 取下子模組, 以及更新學員倉儲內容</p>
-<p>1. 教學影片如下:</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tE5MZzl_7P8?si=ikg6ZcrxtdQNfZXy" title="YouTube video player" width="560"></iframe></p>
-<p></p>
-<p>cd2024 2a w6 利用 pelicanconf py 整合各組員的網誌</p>
-<p>2. 教學影片如下:</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-xuR2hL4zIw?si=xXWP1CbQfsNTVc0G" title="YouTube video player" width="560"></iframe></p>
-<p></p>
-<p>Github Actions 帶有子模組的 main.yml 設定</p>
-<p>加入取子模組內容的 main.yml 設定</p>
-<p></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">on:
-  push:
-    branches: [pdf]
-  pull_request:
-    branches: [pdf]
-  workflow_dispatch:
- 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4.1.1
-      - name: Install texlive and related fonts
-        run: |
-          sudo apt install -y texlive texlive-xetex texlive-lang-chinese gsfonts fonts-moe-standard-kai ttf-mscorefonts-installer librsvg2-bin texlive-fonts-extra 
-      - name: Initialize submodules
-        run: git submodule update --init --recursive
-      - name: Test LaTeX
-        working-directory: ./latex
-        run: |
-          xelatex cd_report.tex
-          xelatex cd_report.tex
-          xelatex cd_report.tex
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v6.1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create Release
-        id: create_release
-        uses: comnoco/create-release-action@v2.0.5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          release_name: Release ${{ steps.tag_version.outputs.new_tag }}
-          draft: false
-          prerelease: false
-      - name: Upload Release Asset
-        id: upload-release-asset 
-        uses: shogo82148/actions-upload-release-asset@v1.7.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./latex/cd_report.pdf
-          asset_name: cd_report.pdf
-          asset_content_type: pdf</pre>
-<p></p>
-<p>其中加入取子模組內容的設定為:</p>
-<p></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">- name: Initialize submodules
-  run: git submodule update --init --recursive</pre>
-<p><a href="https://git-scm.com/book/zh-tw/v2/%E4%BD%BF%E7%94%A8-Git-%E5%88%86%E6%94%AF-%E7%B0%A1%E8%BF%B0%E5%88%86%E6%94%AF"></a></p>
-<br />w5 << <a href='w5.html'>Previous</a> <a href='w7.html'>Next</a> >> w7</div>
+    <div id="tipue_search_content">w7 << <a href='w7.html'>Previous</a> <a href='w9.html'>Next</a> >> w9<br /><h1>w8</h1>
+<p>本週為第八周，觀看下方影片了解自己的任務與需要做的事情，並進行每周進度統整</p>
+<p>cd2024 2a w8 產品協同架構說明</p>
+<div class="fluid-width-video-wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="150" id="fitvid472201" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CqhZm_9ugdc?si=O9ggtDyapJdaVsOs" title="YouTube video player" width="300"></iframe></div>
+<p>協同產品設計實習課程使用網際內容管理系統, 採<span> </span><a href="https://classroom.github.com/">Github Classroom</a><span> </span>建立分組倉儲, 並由學員自行利用<span> </span><a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a><span> </span>作為<span> </span><a href="https://github.com/">Github</a><span> </span>倉儲的引擎目錄, 利用 Python 執行網頁編輯. 之後再轉檔為靜態網頁, 以便利用<span> </span><a href="https://pages.github.com/">Github Pages</a><span> </span>所提供的<span> </span><a href="https://en.wikipedia.org/wiki/World_Wide_Web">WWW</a><span> </span>伺服器呈現協同產品設計過程的相關多媒體內容.</p>
+<p>除了章節式的網站外,<span> </span><a href="https://github.com/mdecycu/cmsimde_site">cmsimde_site</a><span> </span>還額外利用<span> </span><a href="https://getpelican.com/">Pelican</a><span> </span>管理使用者所建立的網誌, 以及利用<span> </span><a href="https://revealjs.com/">Reveal</a><span> </span>管理使用者所建立的網際簡報.</p>
+<p>在使用者每週的內容管理過程, 由於必須採用 Python 執行網頁編輯,<span> </span><a href="https://mde.tw/cd2024">cd2024</a><span> </span>課程採用了四種不同的方法進行, 其中包括<span> </span><a href="https://replit.com/">Replit</a>、<a href="https://github.com/codespace">Codespaces</a>、<a href="https://gitpod.io/">Gitpod</a><span> </span>以及 localhost. 由於前三者屬於雲端作業, 各有不同的使用規定與免費使用權限, 對於多人協同的產品設計團隊而言, 可以根據各自的喜好與環境選擇合用的網頁編輯工具, 且在多方了解下也可透過實際使用發展中的雲端 IDE 環境, 一窺未來可能的 AI 導引前景.</p>
+<br />w7 << <a href='w7.html'>Previous</a> <a href='w9.html'>Next</a> >> w9</div>
 
     <!-- footer -->
       <div class="container">
